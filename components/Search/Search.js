@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import WeatherContext from '../store/weather-context';
+import WeatherContext from '../../store/weather-context';
 import classes from './Search.module.css';
 
 const Search = () => {

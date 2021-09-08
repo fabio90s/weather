@@ -1,4 +1,4 @@
-import { WeatherContextProvider } from '../components/store/weather-context';
+import { WeatherContextProvider } from '../store/weather-context';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {

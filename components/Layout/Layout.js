@@ -2,7 +2,7 @@ import classes from './Layout.module.css';
 import Search from '../Search/Search';
 import { useContext } from 'react';
 import ImportExportIcon from '@material-ui/icons/ImportExport';
-import WeatherContext from '../store/weather-context';
+import WeatherContext from '../../store/weather-context';
 
 const Layout = (props) => {
   const weatherCtx = useContext(WeatherContext);

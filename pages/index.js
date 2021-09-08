@@ -5,7 +5,7 @@ import Box from '@material-ui/core/Box';
 import Alert from '@material-ui/lab/Alert';
 import Layout from '../components/Layout/Layout';
 import { useContext } from 'react';
-import WeatherContext from '../components/store/weather-context';
+import WeatherContext from '../store/weather-context';
 
 const HomePage = () => {
   const weatherCtx = useContext(WeatherContext);
