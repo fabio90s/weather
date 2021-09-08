@@ -1,0 +1,27 @@
+/* .searchForm {
+  display: flex;
+  justify-content: center;
+  border-style: none;
+} */
+
+.searchInput {
+  border-radius: 0.23em;
+  background-color: rgba(234, 234, 241, 0.479);
+  outline: none;
+  height: 5vh;
+  width: auto;
+  font-size: 30px;
+  color: white;
+}
+
+@media all and (max-width: 700px){
+  .searchInput {
+    border-radius: 0.23em;
+    background-color: rgba(234, 234, 241, 0.479);
+    outline: none;
+    height: 5vh;
+    width: 100px;
+    font-size: 30px;
+    color: white;
+  }
+}

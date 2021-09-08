@@ -1,0 +1,157 @@
+.container {
+  height: 100vh;
+  /* padding: 5em; */
+  text-align: center;
+  margin: 5% 0px 0px 0px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+/* .card {
+  align-content: center;
+  display: table-row-group;
+} */
+
+
+.infoCard {
+  background-color: white;
+  border: 3px solid white;
+  height: 228px;
+  width: 744px;
+  border-radius: 25px;
+  padding: 24px;
+}
+.otherInfo {
+  display: flex;
+  margin-top: 60px;
+}
+
+.hoursCard {
+  margin-top: 30px;
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 25px;
+  height: 250px;
+  width: 744px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.daysCard {
+  margin-top: 30px;
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 25px;
+  height: 250px;
+  width: 744px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.infoSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftData {
+  font-size: 40px;
+  text-align: start;
+}
+
+.city {
+  margin-top: 30px;
+  font-size: 15px;
+  color: #757575 !important;
+}
+.rightData {
+  text-align: end;
+}
+
+.rightData strong {
+  text-transform: capitalize;
+}
+.rightData img {
+  float: left;
+  margin-right: 3em;
+}
+
+@media all and (max-width: 300px) {
+ .container {
+    
+   align-items: center;
+   justify-content: center;
+  
+ }
+
+}
+
+ @media all and  (min-width: 320px)  { 
+  .infoCard,
+  .hoursCard,
+  .daysCard {
+  
+    margin: 10px 10px;
+    height: auto;
+    width: auto;
+ 
+  }
+}
+
+@media all and  (min-width: 320px) and (max-width: 480px) {
+  .infoCard,
+  .hoursCard,
+  .daysCard {
+  
+    margin: 10px 10px;
+    height: auto;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+} 
+
+@media all and  (min-width: 481px) and (max-width: 768px) {
+  .infoCard,
+  .hoursCard,
+  .daysCard {
+    
+    margin: 10px 10px;
+    height: auto;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media all and  (min-width: 769px) and (max-width: 1024px) {
+  .infoCard,
+  .hoursCard,
+  .daysCard {
+    
+    margin: 10px 10px;
+    height: auto;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media all and  (min-width: 1025px) and (max-width: 1200px) {
+  .infoCard,
+  .hoursCard,
+  .daysCard {
+    
+    margin: 10px 10px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
